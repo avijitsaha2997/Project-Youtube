@@ -1,8 +1,14 @@
+import Navbar from "./components/Navbar";
 
-function App () {
+
+function App() {
   return (
 
-      <div>fjhsjfhfdfdfjh</div>
+    <Navbar>
+      <div>
+        <div></div>
+      </div>
+    </Navbar>
   );
 }
 

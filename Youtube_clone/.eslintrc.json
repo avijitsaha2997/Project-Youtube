@@ -3,7 +3,11 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["plugin:react/recommended", "standard"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
+  ],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -11,8 +15,7 @@
   },
   "plugins": ["react"],
   "rules": {
-    "quotes": ["error", "double"],
     "semi": ["error", "always"],
-    "react/react-in-jsx-scope": "off"
+    "quotes": ["error", "double"]
   }
 }
